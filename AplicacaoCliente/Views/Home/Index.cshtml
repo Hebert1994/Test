@@ -1,0 +1,41 @@
+﻿@model ClienteModel
+
+<h2> Cadastro Morador</h2>
+
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Id)</th>
+        <th>@Html.DisplayNameFor(model => model.Nome)</th>
+        <th>@Html.DisplayNameFor(model => model.Email)</th>
+        <th></th>
+    </tr>
+    @foreach (var item in (List<ClienteModel>)ViewBag.ListaClientes)
+    {
+        <tr>
+                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                 <td style="width:80px;"><button class="btn btn-primary edit" onclick="registrar(@item.Id.ToString())"><i class="glyphicon glyphicon-edit">Editar</i></button>
+                 <td style="width:80px;"><button class="btn btn-danger delete" onclick="excluir(@item.Id.ToString())"><i class="glyphicon glyphicon-trash">Excluir</i></button>
+              
+        </tr>
+    }
+</table>
+<button class="btn btn-block btn-primary" onclick="registrar()">Registrar Cliente</button>
+
+<script>
+    function registrar(id) {
+        if (id == null) {
+            id = "";
+        }
+        else {
+            id = "/" + id;
+        }
+        window.location.href = window.location.origin + "/Home/Registrar" + id;
+    }
+
+    function excluir(id) {
+        window.location.href = window.location.origin + "/Home/Excluir/" + id;
+    }
+</script>

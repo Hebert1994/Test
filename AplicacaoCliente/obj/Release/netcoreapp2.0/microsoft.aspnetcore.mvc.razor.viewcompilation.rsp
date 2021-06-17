@@ -1,0 +1,13 @@
+C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=AplicacaoCliente
+--content-root=C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente
+--file=C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente\Views\Home\Excluir.cshtml
+--file=C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente\Views\Home\ExcluirCliente.cshtml
+--file=C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente\Views\Home\Index.cshtml
+--file=C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente\Views\Home\Registrar.cshtml
+--file=C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente\Views\Shared\Error.cshtml
+--file=C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente\Views\Shared\_Layout.cshtml
+--file=C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente\Views\_ViewImports.cshtml
+--file=C:\Users\Hebert\source\repos\MinhaWebAPI\AplicacaoCliente\Views\_ViewStart.cshtml
